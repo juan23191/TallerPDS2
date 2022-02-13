@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:/Users/Juan Pablo Soto/OneDrive - elpoli.edu.co/SEMESTRE 2021-2/PDS/moviesmultiproject/config-data
+  security:
+    user:
+      name: ${CONFIG_USER}
+      password: ${CONFIG_PASSWORD}
+server:
+  port: 9000

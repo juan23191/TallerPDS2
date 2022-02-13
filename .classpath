@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="service-admin/src/main/java"/>
+	<classpathentry kind="src" path="service-admin/src/test/java"/>
+	<classpathentry kind="src" path="service-booking/src/main/java"/>
+	<classpathentry kind="src" path="service-booking/src/test/java"/>
+	<classpathentry kind="src" path="service-config/src/main/java"/>
+	<classpathentry kind="src" path="service-config/src/test/java"/>
+	<classpathentry kind="src" path="service-gateway/src/main/java"/>
+	<classpathentry kind="src" path="service-gateway/src/test/java"/>
+	<classpathentry kind="src" path="service-movie/src/main/java"/>
+	<classpathentry kind="src" path="service-movie/src/test/java"/>
+	<classpathentry kind="src" path="service-register/src/main/java"/>
+	<classpathentry kind="src" path="service-register/src/test/java"/>
+	<classpathentry kind="src" path="service-showtime/src/main/java"/>
+	<classpathentry kind="src" path="service-showtime/src/test/java"/>
+	<classpathentry kind="src" path="service-user/src/main/java"/>
+	<classpathentry kind="src" path="service-user/src/test/java"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="service-showtime/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="service-user/build/classes/java/main"/>
+</classpath>
