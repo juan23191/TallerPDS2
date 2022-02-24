@@ -28,4 +28,6 @@ public class User {
     @Column(name = "lastname", nullable = false)
     @NotEmpty(message = "El apellido del usuario no puede ser vacio")
     private String lastname;
+
+
 }

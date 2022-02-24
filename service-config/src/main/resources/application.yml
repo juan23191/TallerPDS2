@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///C:/Users/Juan Pablo Soto/OneDrive - elpoli.edu.co/SEMESTRE 2021-2/PDS/moviesmultiproject/config-data
+          uri: file:///D:/ProjectsPDS/config-data
   security:
     user:
       name: ${CONFIG_USER}
