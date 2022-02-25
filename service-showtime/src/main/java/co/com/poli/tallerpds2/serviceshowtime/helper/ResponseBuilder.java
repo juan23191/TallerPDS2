@@ -1,6 +1,5 @@
 package co.com.poli.tallerpds2.serviceshowtime.helper;
 
-import co.com.poli.tallerpds2.servicebooking.model.Response;
 import co.com.poli.tallerpds2.serviceshowtime.model.Response;
 import org.springframework.stereotype.Component;
 
