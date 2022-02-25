@@ -5,27 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f050ee-cfa8-43dd-b96c-097990848a61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/controller/ShowtimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/repository/ShowtimeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/service/ShowtimeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/service/ShowtimeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/client/MoviesClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/client/MoviesClientFallbackHystrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/entity/Invoice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/entity/InvoiceItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/helper/ResponseBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/model/Movies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/model/Response.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service-showtime/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/showtime.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/helper/ResponseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/helper/ResponseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/ServiceShowtimeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/ServiceShowtimeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/model/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/model/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/service/ShowtimeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/service/ShowtimeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceConfigApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceShowtimeApplication">
     <configuration name="ServiceConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.com.poli.tallerpds2.serviceconfig.ServiceConfigApplication" />
       <module name="moviesmultiproject.service-config.main" />
@@ -338,6 +330,8 @@
       <workItem from="1645766206132" duration="42000" />
       <workItem from="1645766771204" duration="986000" />
       <workItem from="1645767937003" duration="2551000" />
+      <workItem from="1645806437492" duration="3523000" />
+      <workItem from="1645826023251" duration="1078000" />
     </task>
     <servers />
   </component>
@@ -355,43 +349,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java</url>
-          <line>30</line>
-          <properties field="moviesId" class="co.com.poli.tallerpds2.serviceshowtime.entity.Showtime" />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java</url>
-          <line>33</line>
-          <properties field="movie" class="co.com.poli.tallerpds2.serviceshowtime.entity.Showtime" />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -24,13 +24,9 @@ public class Showtime {
     @Column(name = "date")
     private Date date;
 
-
-    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "moviesId")
     @JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
-    private Long moviesId;
-
-    @Transient
     private Movies movie;
 
     @Override

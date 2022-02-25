@@ -47,10 +47,8 @@ public class ShowtimeServiceImpl implements ShowtimeService {
         Showtime showtime = showtimeRepository.findByNumberInvoice(numberShowtime);
         ModelMapper modelMapper = new ModelMapper();
         Movies movie = modelMapper.
-                map(moviesClient.findByID(showtime.getMoviesId()).getData(),Movies.class);
+                map(moviesClient.findByID(showtime.getMovie().getId()).getData(),Movies.class);
         showtime.setMovie(movie);
         return showtimeRepository.findByNumberInvoice(numberShowtime);
     }
-
 }
-//(MoviesClient.findByID(showtime.getMoviesId()).getData(),Movies.class);
