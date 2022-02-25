@@ -1,6 +1,6 @@
 spring:
   application:
-    name: service-gateway
+    name: service-movie
   cloud:
     config:
       uri: http://localhost:9000

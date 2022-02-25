@@ -5,44 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f050ee-cfa8-43dd-b96c-097990848a61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/moviesmultiproject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/client/MoviesClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/client/MoviesClientFallbackHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/entity/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/entity/InvoiceItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/helper/ResponseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/model/Movies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-booking/src/main/java/co/com/poli/tallerpds2/servicebooking/model/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-movie/src/main/java/co/com/poli/tallerpds2/servicemovie/controller/MoviesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-movie/src/main/java/co/com/poli/tallerpds2/servicemovie/helper/ResponseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-movie/src/main/java/co/com/poli/tallerpds2/servicemovie/model/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-movie/src/main/java/co/com/poli/tallerpds2/servicemovie/repository/MoviesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-movie/src/main/java/co/com/poli/tallerpds2/servicemovie/service/MoviesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-movie/src/main/java/co/com/poli/tallerpds2/servicemovie/service/MoviesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/client/MoviesClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/client/MoviesClientFallbackHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/showtime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/helper/ResponseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/model/Movies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/model/Response.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/moviesmultiproject1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/service-booking.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/service-gateway.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/service-movie.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/service-showtime.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/service-user.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service-gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-booking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service-booking/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-movie/src/main/java/co/com/poli/tallerpds2/servicemovie/entity/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-movie/src/main/java/co/com/poli/tallerpds2/servicemovie/entity/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-movie/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-movie/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-showtime/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-user/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/co/com/poli/tallerpds2/serviceuser/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/co/com/poli/tallerpds2/serviceuser/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/co/com/poli/tallerpds2/serviceuser/entityDTO/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/co/com/poli/tallerpds2/serviceuser/entityDTO/UserDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +113,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -120,23 +122,29 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../storemultiproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Juan Pablo Soto\OneDrive - elpoli.edu.co\SEMESTRE 2021-2\PDS\moviesmultiproject\service-showtime\src\main\java\co\com\poli\tallerpds2\serviceshowtime" />
+      <recent name="C:\Users\Juan Pablo Soto\OneDrive - elpoli.edu.co\SEMESTRE 2021-2\PDS\moviesmultiproject\service-booking\src\main\java\co\com\poli\tallerpds2\servicebooking\entity" />
+      <recent name="C:\Users\Juan Pablo Soto\OneDrive - elpoli.edu.co\SEMESTRE 2021-2\PDS\moviesmultiproject\service-movie\src\main\java\co\com\poli\tallerpds2\servicemovie" />
       <recent name="C:\Users\Juan Pablo Soto\OneDrive - elpoli.edu.co\SEMESTRE 2021-2\PDS\moviesmultiproject" />
       <recent name="C:\Users\Juan Pablo Soto\OneDrive - elpoli.edu.co\SEMESTRE 2021-2\PDS\moviesmultiproject\service-user\src\main\java\co\com\poli\tallerpds2\serviceuser" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="co.com.poli.tallerpds2.serviceadmin.tallerpds2.serviceuser.entity" />
-      <recent name="co.com.poli.tallerpds2.serviceuser.entities" />
+      <recent name="co.com.poli.tallerpds2.servicebooking.helper" />
+      <recent name="co.com.poli.tallerpds2.servicebooking.model" />
+      <recent name="co.com.poli.tallerpds2.servicebooking.client" />
+      <recent name="co.com.poli.tallerpds2.serviceshowtime.model" />
+      <recent name="co.com.poli.tallerpds2.serviceshowtime.entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,7 +154,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceAdminApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceMovieApplication">
     <configuration name="ServiceConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.com.poli.tallerpds2.serviceconfig.ServiceConfigApplication" />
       <module name="moviesmultiproject.service-config.main" />
@@ -253,6 +261,12 @@
     <configuration name="ServiceConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moviesmultiproject.service-config.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.poli.tallerpds2.serviceconfig.ServiceConfigApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <envs>
+        <env name="CONFIG_USER" value="admin" />
+        <env name="CONFIG_PASSWORD" value="admin" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -292,6 +306,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ServiceConfigApplication" />
+      <item itemvalue="Application.ServiceUserApplication" />
+      <item itemvalue="Gradle.moviesmultiproject [test]" />
+      <item itemvalue="Gradle.moviesmultiproject:service-config [bootRun]" />
+      <item itemvalue="Gradle.Tests in 'moviesmultiproject.service-user'" />
+      <item itemvalue="Spring Boot.ServiceAdminApplication" />
+      <item itemvalue="Spring Boot.ServiceBookingApplication" />
+      <item itemvalue="Spring Boot.ServiceConfigApplication" />
+      <item itemvalue="Spring Boot.ServiceGatewayApplication" />
+      <item itemvalue="Spring Boot.ServiceMovieApplication" />
+      <item itemvalue="Spring Boot.ServiceRegisterApplication" />
+      <item itemvalue="Spring Boot.ServiceShowtimeApplication" />
+      <item itemvalue="Spring Boot.ServiceUserApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServiceConfigApplication" />
@@ -313,6 +342,11 @@
       <workItem from="1645165286350" duration="645000" />
       <workItem from="1645576646513" duration="1731000" />
       <workItem from="1645580409479" duration="4185000" />
+      <workItem from="1645721225487" duration="1101000" />
+      <workItem from="1645741411326" duration="528000" />
+      <workItem from="1645741983971" duration="180000" />
+      <workItem from="1645742296062" duration="26000" />
+      <workItem from="1645742827114" duration="10146000" />
     </task>
     <servers />
   </component>

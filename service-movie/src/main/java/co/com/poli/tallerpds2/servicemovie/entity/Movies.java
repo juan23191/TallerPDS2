@@ -20,9 +20,8 @@ import javax.validation.constraints.NotNull;
 public class Movies {
 
     @Id
-    @NotNull(message =  "El id de la pelicula no puede ser vacip")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", updatable = false, unique = true)
+    @Column(name = "id", updatable = false, nullable = false, unique = true)
     private Long id;
 
     @Column(name = "title", nullable = false)
