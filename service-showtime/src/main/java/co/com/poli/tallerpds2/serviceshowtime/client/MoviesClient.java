@@ -10,5 +10,4 @@ public interface MoviesClient {
 
     @GetMapping("/movies/v1/movies/{id}")
     Response findByID(@PathVariable("id") Long id);
-
 }

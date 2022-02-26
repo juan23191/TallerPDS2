@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f050ee-cfa8-43dd-b96c-097990848a61" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Movies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,10 +14,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-showtime/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/ServiceShowtimeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/ServiceShowtimeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/client/MoviesClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/client/MoviesClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/entity/Showtime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/model/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/model/Movies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/service/ShowtimeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-showtime/src/main/java/co/com/poli/tallerpds2/serviceshowtime/service/ShowtimeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +132,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceShowtimeApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceConfigApplication">
     <configuration name="ServiceConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.com.poli.tallerpds2.serviceconfig.ServiceConfigApplication" />
       <module name="moviesmultiproject.service-config.main" />
@@ -291,13 +290,13 @@
       <item itemvalue="Gradle.moviesmultiproject [test]" />
       <item itemvalue="Gradle.moviesmultiproject:service-config [bootRun]" />
       <item itemvalue="Gradle.Tests in 'moviesmultiproject.service-user'" />
+      <item itemvalue="Spring Boot.ServiceShowtimeApplication" />
       <item itemvalue="Spring Boot.ServiceAdminApplication" />
       <item itemvalue="Spring Boot.ServiceBookingApplication" />
       <item itemvalue="Spring Boot.ServiceConfigApplication" />
       <item itemvalue="Spring Boot.ServiceGatewayApplication" />
       <item itemvalue="Spring Boot.ServiceMovieApplication" />
       <item itemvalue="Spring Boot.ServiceRegisterApplication" />
-      <item itemvalue="Spring Boot.ServiceShowtimeApplication" />
       <item itemvalue="Spring Boot.ServiceUserApplication" />
     </list>
     <recent_temporary>
@@ -331,7 +330,7 @@
       <workItem from="1645766771204" duration="986000" />
       <workItem from="1645767937003" duration="2551000" />
       <workItem from="1645806437492" duration="3523000" />
-      <workItem from="1645826023251" duration="1078000" />
+      <workItem from="1645826023251" duration="6840000" />
     </task>
     <servers />
   </component>

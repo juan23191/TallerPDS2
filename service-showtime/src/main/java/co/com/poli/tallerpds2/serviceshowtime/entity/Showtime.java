@@ -1,6 +1,5 @@
 package co.com.poli.tallerpds2.serviceshowtime.entity;
 
-import co.com.poli.tallerpds2.serviceshowtime.model.Movies;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
 import lombok.Setter;
@@ -27,6 +26,9 @@ public class Showtime {
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "moviesId")
     @JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
+    private List<Movies> movies;
+
+    @Transient
     private Movies movie;
 
     @Override
